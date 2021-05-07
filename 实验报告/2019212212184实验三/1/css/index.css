@@ -1,0 +1,130 @@
+.border{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	border-style: solid;
+	border-width: 1px;
+	border-color: lightgrey;
+	height: 820px;
+	width: 1250px;
+	margin:0 auto;
+	background-color: rgb(242,242,242);
+	
+}
+.background{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	height: 370px;
+	width: 390px;
+	border-color: lightgrey;
+	border-style: solid;
+	border-width: 0px;
+	margin-left: 12px;
+	background-color: rgb(255,255,235);
+}
+.under{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	height: 110px;
+	width: 390px;
+	background-color: #fff;
+}
+.title{
+	display: flex;
+	justify-content: flex-start;
+	border-style: solid;
+	border-width: 0px;
+	height: 18px;
+	width: 370px;
+	margin-left: 10px;
+	background-color: #fff;
+}
+
+.information{
+	display: flex;
+	justify-content: flex-start;
+	border-style: solid;
+	border-width: 0px;
+	border-top: 
+	height: 18px;
+	width: 370px;
+	margin-top: -10px;
+	margin-left: 10px;
+	background-color: #fff;
+}
+.information img{
+	margin-top:2px;
+	width:13px;
+	height:16px;
+
+}
+.text2{
+	font-size: 15px;	
+	color: red;
+	font-weight: bold;
+}
+.price{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	border-style: solid;
+	border-width: 0px;
+	height: 28px;
+	width: 370px;
+	margin-top: -10px;
+	margin-left: 10px;
+	background-color: #fff;
+}
+.text3{
+	font-size: 15px;
+	color: red;
+	font-weight: bold;
+	line-height: 28px;
+	text-align: center;
+}
+.text4{
+	color: red;
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 28px;
+}
+.text5{
+	color: lightgrey;
+	font-weight: bold;
+	line-height: 45px;
+	font-size: 13px;
+	text-decoration: line-through;
+}
+.text6{
+	color: red;
+	font-weight: bold;
+	line-height: 45px;
+	font-size: 13px;
+}
+.text7{
+	color: lightgrey;
+	font-weight: bold;
+	line-height: 43px;
+	font-size: 13px;
+	display: flex;
+	
+}
+.text8{
+	margin-left: 10px;	
+	color: rgb(181,187,184);
+	font-weight: bold;
+}
+.group{
+	margin-left:150px; 
+	display: flex;
+	justify-content: flex-end;
+}
+.fire{
+	margin-top: 12px;
+	width:20px;
+	height: 20px;
+}

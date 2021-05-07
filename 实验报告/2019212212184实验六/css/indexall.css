@@ -1,0 +1,345 @@
+body{
+	background: #e1e1e1;
+	width:1500px;
+	height:1500px;
+}
+.lay1{
+	float:left;
+}
+.lay1 .border{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	border: 20px solid rgb(205,211,245);
+	height: 560px;
+	width: 760px;
+	margin:0 auto;
+	background-color: rgb(205,211,245);
+	
+}
+.lay1 .area1{
+	display: flex;
+	justify-content: space-between;
+	height: 120px;
+	width: 800px;
+	background-color: rgb(153,189,144);
+}
+.lay1 .g-1{
+	display: flex;
+	justify-content: flex-start;
+	width: 500px;
+}
+.lay1 .area2{
+	margin-top:20px;
+	display: flex;
+	justify-content: space-between;
+	height: 420px;
+	width: 760px;
+	background-color: rgb(153,189,144);
+}
+.lay1 .g-1 span{
+	border: 20px solid rgb(153,189,144);
+	width: 80px;
+	height: 80px;
+	background-color: rgb(205,211,245);
+}
+.lay1 .g-2{
+	display: flex;
+}
+.lay1 .tangle5{
+	margin: 20px;
+	width: 80px;
+	height: 80px;
+	background-color: rgb(205,211,245);
+}
+.lay1 .left{
+	width: 240px;
+}
+.lay1 .rectangle{
+	width:200px;
+	height: 300px;
+	border: 20px solid rgb(153,189,144);
+	background-color: rgb(205,211,245);
+}
+.lay1 .g-3{
+	margin-top: -20px;
+	display: flex;
+	justify-content: flex-start;
+	width: 240px;
+	height: 120px;
+}
+.lay1 .tangle6{
+	width: 50px;
+	height: 50px;
+	border: 20px solid rgb(153,189,144);
+	background-color: rgb(205,211,245);
+}
+.lay1 .tangle7{
+	width: 50px;
+	height: 50px;
+	border-left: 5px solid rgb(153,189,144);
+    border-top: 20px solid rgb(153,189,144);
+	background-color: rgb(205,211,245);
+
+}
+.lay1 .tangle8{
+	width: 50px;
+	height: 50px;
+	border-left: 25px solid rgb(153,189,144);
+    border-top: 20px solid rgb(153,189,144);
+	background-color: rgb(205,211,245);
+}
+
+.lay1 .right{
+	margin-left: 20px;
+	width: 640px;
+}
+.lay1 .retangle1{
+	margin-top: 20px;
+	width: 480px;
+	height: 40px;
+	border-bottom: 7.5px solid rgb(153,189,144);
+	background-color: rgb(205,211,245);
+}
+.lay1 .g-4{
+	width:480px;
+	height: 330px;
+}
+.lay1 .g-4 div{
+	width: 480px;
+	height: 40px;
+	border-top: 7.5px solid rgb(153,189,144);
+	border-bottom: 7.5px solid rgb(153,189,144);
+	background-color: rgb(205,211,245);
+}
+.lay2{
+	float:right;
+}
+.lay2 .background{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	height: 370px;
+	width: 390px;
+	border-style: solid;
+	border-width: 1px;
+	margin:0 auto;
+	background-color: rgb(255,255,235);
+}
+.lay2 .under{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	border-top: 1px solid #000;
+	height: 110px;
+	width: 390.5px;
+	background-color: rgb(255,230,234);
+}
+.lay2 .title{
+	display: flex;
+	justify-content: flex-start;
+	border-style: solid;
+	border-width: 1px;
+	height: 18px;
+	width: 370px;
+	margin-left: 10px;
+	background-color: #fff;
+}
+.lay2 .text1{
+	line-height: 20px;
+	font-size: 12px;	
+	margin-left: 10px;
+	font-weight: bold;
+}
+.lay2 .information{
+	display: flex;
+	justify-content: flex-start;
+	border-style: solid;
+	border-width: 1px;
+	border-top: 
+	height: 18px;
+	width: 370px;
+	margin-top: -10px;
+	margin-left: 10px;
+	background-color: #fff;
+}
+.lay2 .text2{
+	font-size: 12px;
+	margin-left: 10px;	
+	color: red;
+	font-weight: bold;
+}
+.lay2 .price{
+	display: flex;
+	justify-content: flex-start;
+	border-style: solid;
+	border-width: 1px;
+	height: 28px;
+	width: 370px;
+	margin-top: -10px;
+	margin-left: 10px;
+	background-color: #fff;
+}
+.lay2 .text3{
+	margin-left: 9px;
+	font-size: 13px;
+	color: red;
+	font-weight: bold;
+	line-height: 28px;
+}
+.lay2 .text4{
+	color: red;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 28px;
+}
+.lay2 .text5{
+	line-height: 35px;
+	font-size: 12px;
+	margin-left: 10px;
+	text-decoration: line-through;
+}
+.lay2 .text6{
+	line-height: 35px;
+	font-size: 12px;
+	margin-left: 130px;
+}
+.lay2 .text7{
+	line-height: 35px;
+	font-size: 12px;
+	display: flex;
+	
+}
+.lay3{
+	clear:both;
+}
+.lay3 .border{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	border-style: solid;
+	border-width: 1px;
+	border-color: lightgrey;
+	height: 820px;
+	width: 1250px;
+	margin:0 auto;
+	background-color: rgb(242,242,242);
+	
+}
+.lay3 .background{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	height: 370px;
+	width: 390px;
+	border-color: lightgrey;
+	border-style: solid;
+	border-width: 0px;
+	margin-left: 12px;
+	background-color: rgb(255,255,235);
+}
+.lay3 .under{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	height: 110px;
+	width: 390px;
+	background-color: #fff;
+}
+.lay3 .title{
+	display: flex;
+	justify-content: flex-start;
+	border-style: solid;
+	border-width: 0px;
+	height: 18px;
+	width: 370px;
+	margin-left: 10px;
+	background-color: #fff;
+}
+
+.lay3 .information{
+	display: flex;
+	justify-content: flex-start;
+	border-style: solid;
+	border-width: 0px;
+	border-top: 
+	height: 18px;
+	width: 370px;
+	margin-top: -10px;
+	margin-left: 10px;
+	background-color: #fff;
+}
+.lay3 .information img{
+	margin-top:2px;
+	width:13px;
+	height:16px;
+
+}
+.lay3 .text2{
+	font-size: 15px;	
+	color: red;
+	font-weight: bold;
+}
+.lay3 .price{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	border-style: solid;
+	border-width: 0px;
+	height: 28px;
+	width: 370px;
+	margin-top: -10px;
+	margin-left: 10px;
+	background-color: #fff;
+}
+.lay3 .text3{
+	font-size: 15px;
+	color: red;
+	font-weight: bold;
+	line-height: 28px;
+	text-align: center;
+}
+.lay3 .text4{
+	color: red;
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 28px;
+}
+.lay3 .text5{
+	color: lightgrey;
+	font-weight: bold;
+	line-height: 45px;
+	font-size: 13px;
+	text-decoration: line-through;
+}
+.lay3 .text6{
+	color: red;
+	font-weight: bold;
+	line-height: 45px;
+	font-size: 13px;
+}
+.lay3 .text7{
+	color: lightgrey;
+	font-weight: bold;
+	line-height: 43px;
+	font-size: 13px;
+	display: flex;
+	
+}
+.lay3 .text8{
+	margin-left: 10px;	
+	color: rgb(181,187,184);
+	font-weight: bold;
+}
+.lay3 .group{
+	margin-left:150px; 
+	display: flex;
+	justify-content: flex-end;
+}
+.lay3 .fire{
+	margin-top: 12px;
+	width:20px;
+	height: 20px;
+}

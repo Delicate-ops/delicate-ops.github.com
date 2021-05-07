@@ -1,0 +1,318 @@
+body{
+	/*background-image: url(background.jpg);*/
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin:0px;
+	height:720px;
+	min-height: 720px;
+	min-width:490px;
+	font-family: "verdana";
+	/*opacity: 0.6;*/
+}
+.outborder{
+	border-style: solid;
+	border-width: 11px;
+	width: 473px;
+	height: 695px;
+	margin: 0 auto;
+	border-color: rgb(244,244,244);
+}
+/*第一区域*/
+.forback{
+	width: 472px;
+	height: 92px;
+	border-style: solid;
+	margin-top: -1px;
+	border-width: 1px;
+	border-color: white;
+	 
+}
+.number{
+	color: #E85020;
+	font-weight:bold;
+	font-size: 24px;
+	margin-top: 14px;
+	margin-left: 26px;
+}
+.number span{
+	margin:0 41.4px;
+}
+.text{
+	font-size: 19px;
+	margin-top: 1.5px;
+	margin-left: 26px;
+}
+.text span{
+	margin:0 22px;
+}
+
+/*第二区域*/
+.harmmessage{
+	background-color: rgb(255,229,221);
+	height: 40px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: white;
+}
+.harmtext{
+	color:rgb(232,86,57);
+	font-size: 19.8px;
+	margin-left: 131px;
+	padding-top: 8px;
+}
+/*第三区域*/
+.rulesarea{
+	height: 177px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: white;
+}
+.rulestext{
+	font-size: 19.5px;
+	margin-left: 15px;
+	padding-top: 25px;
+}
+.rulestext span{
+	margin:0 21px;
+}
+#luntan{
+	font-weight: bold;
+}
+.rulestext2{
+	color:rgb(252,91,37);
+	font-size: 19px;
+	margin-left: -8px;
+	padding-top: 33px;
+}
+.rulestext2 span{
+	margin:0 24px;
+}
+.rulestext3{
+	font-size: 19px;
+	margin-left: -17.8px;
+	padding-top: 15px;
+}
+.rulestext3 span{
+	margin:0 37px;
+}
+/*第四区域*/
+.phonearea{
+	margin-left: -1.5px;
+	margin-top: -1px;
+	height: 123px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: rgb(252,91,37);
+	border-right-color:rgb(244,244,244);
+}
+.phonetext{
+	font-size: 19px;
+	margin-left: 28px;
+	padding-top: 72px;
+}
+#chonghuafei{
+color:rgb(252,91,37);
+}
+.traveltext{
+	font-size: 19px;
+	position: absolute;
+	margin-left: 114.5px;
+	margin-top: -99px;
+	border-width: 2px;
+	border-style: solid;
+	border-left-color:rgb(252,91,37);
+	border-top-color:rgb(244,244,244);
+	border-right-color:rgb(244,244,244);
+	border-bottom-color:rgb(252,91,37);
+	width: 119px;
+	height: 122.5px;
+}
+#travel{
+	position: absolute;
+	margin-left: 40px;
+	margin-top: 72.5px;
+}
+.cartext{
+	font-size: 19px;
+	position: absolute;
+	margin-left: 234px;
+	margin-top: -99px;
+	border-width: 2px;
+	border-style: solid;
+	border-left-color:rgb(244,244,244);
+	border-top-color:rgb(244,244,244);
+	border-right-color:rgb(244,244,244);
+	border-bottom-color:rgb(252,91,37);
+	width: 119px;
+	height: 122.5px;
+}
+#car{
+	position: absolute;
+	margin-left: 40px;
+	margin-top: 72.5px;
+}
+.gametext{
+	font-size: 19px;
+	position: absolute;
+	margin-left: 354px;
+	margin-top: -99px;
+	border-width: 2px;
+	border-style: solid;
+	border-left-color:rgb(244,244,244);
+	border-top-color:rgb(244,244,244);
+	border-right-color:rgb(244,244,244);
+	border-bottom-color:rgb(252,91,37);
+	width: 115px;
+	height: 122.5px;
+}
+#game{
+	position: absolute;
+	margin-left: 40px;
+	margin-top: 72.5px;
+}
+/*第五区域*/
+#kong {
+	z-index: 2;
+	position: absolute;
+	margin-top: -5px;
+	width: 114px;
+	height: 10px;
+	background-color: white;
+}
+.contentarea{
+	margin-left: -1.5px;
+	margin-top: -2px;
+	height: 254px;
+	border-style: solid;
+	border-width:2px;
+	border-color: rgb(252,91,37);
+}
+.contenttext{
+	color:rgb(122,122,122);
+	font-size: 19px;
+	margin-left: 24.5px;
+	padding-top: 14px;
+}
+.contenttext span{
+	margin:0 17px;
+}
+#chonghuafei1{
+color:rgb(252,91,37);
+}
+.phonenumber{
+	color:rgb(122,122,122);
+	border-style: solid;
+	border-width: 3px;
+	width: 305px;
+	height: 38px;
+	margin-left:25px;
+	margin-top:15px;
+	border-color: rgb(244,244,244);
+}
+.money{
+	color:black;
+	border-style: solid;
+	border-width: 3px;
+	width: 305px;
+	height: 38px;
+	margin-left:25px;
+	margin-top:-4px;
+	border-color: rgb(244,244,244);
+}
+#input1{
+	display: block;
+	font-size: 19.5px;
+	margin-left:7px;
+	margin-top: 7px;
+}
+#input2{
+	display: block;
+	font-size: 19.5px;
+	margin-left:4px;
+	margin-top: 9px;
+}
+.buy{
+	border-style: solid;
+	border-width: 3px;
+	width: 450px;
+	height: 40px;
+	position: absolute;
+	border-color: white;
+
+}
+#input3{
+	position: absolute;
+	font-size: 20.5px;
+	margin-left:26px;
+	padding-top: 7px;
+	color:rgb(122,122,122);
+}
+#input5{
+	position: absolute;
+	font-size: 20.5px;
+	margin-left:90px;
+	margin-top: 8.5px;
+	color: #E85020;
+	font-weight:bold;
+}
+.chongzhi{
+	background-color: rgb(255,69,3);
+	border-style: solid;
+	border-width: 3px;
+	width: 105px;
+	height: 40px;
+	margin-left:25px;
+	margin-top:48px;
+	border-color: white;
+	border-radius: 5px;
+}
+#input4{
+	color: white;
+	display: block;
+	font-size: 20.5px;
+	margin-left:11px;
+	margin-top: 5px;
+}
+#image1{
+	width:57px;
+	position: relative;
+	left:554px;
+	top:-379px;
+}
+#image2{
+	width:58px;
+	position: relative;
+	left:609px;
+	top:-385.5px;
+}
+#image3{
+	width:58px;
+	position: relative;
+	left:663px;
+	top:-383px;
+}
+#image4{
+	width:58px;
+	position: relative;
+	left:721px;
+	top:-384px;
+}
+#image5{
+	width:30px;
+	position: relative;
+	left:636px;
+	top:-635px;
+}
+#image6{
+	width:26px;
+	position: relative;
+	left:675px;
+	top:-290px;
+}
+#image7{
+	width:75px;
+	position: relative;
+	left:398.5px;
+	top:-565px;
+}

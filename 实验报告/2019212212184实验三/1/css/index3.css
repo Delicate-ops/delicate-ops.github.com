@@ -1,0 +1,95 @@
+.background{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	height: 370px;
+	width: 390px;
+	border-style: solid;
+	border-width: 1px;
+	margin:0 auto;
+	background-color: rgb(255,255,235);
+}
+.under{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	border-top: 1px solid #000;
+	height: 110px;
+	width: 390.5px;
+	background-color: rgb(255,230,234);
+}
+.title{
+	display: flex;
+	justify-content: flex-start;
+	border-style: solid;
+	border-width: 1px;
+	height: 18px;
+	width: 370px;
+	margin-left: 10px;
+	background-color: #fff;
+}
+.text1{
+	line-height: 20px;
+	font-size: 12px;	
+	margin-left: 10px;
+	font-weight: bold;
+}
+.information{
+	display: flex;
+	justify-content: flex-start;
+	border-style: solid;
+	border-width: 1px;
+	border-top: 
+	height: 18px;
+	width: 370px;
+	margin-top: -10px;
+	margin-left: 10px;
+	background-color: #fff;
+}
+.text2{
+	font-size: 12px;
+	margin-left: 10px;	
+	color: red;
+	font-weight: bold;
+}
+.price{
+	display: flex;
+	justify-content: flex-start;
+	border-style: solid;
+	border-width: 1px;
+	height: 28px;
+	width: 370px;
+	margin-top: -10px;
+	margin-left: 10px;
+	background-color: #fff;
+}
+.text3{
+	margin-left: 9px;
+	font-size: 13px;
+	color: red;
+	font-weight: bold;
+	line-height: 28px;
+}
+.text4{
+	color: red;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 28px;
+}
+.text5{
+	line-height: 35px;
+	font-size: 12px;
+	margin-left: 10px;
+	text-decoration: line-through;
+}
+.text6{
+	line-height: 35px;
+	font-size: 12px;
+	margin-left: 130px;
+}
+.text7{
+	line-height: 35px;
+	font-size: 12px;
+	display: flex;
+	
+}
